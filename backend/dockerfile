@@ -1,4 +1,4 @@
-FROM FROM ubuntu:latest
+FROM ubuntu:latest
 LABEL Author="Vikas Ingawale"
 RUN apt-get update && apt-get install -y openjdk-11-jre-headless
 ADD https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.99/bin/apache-tomcat-8.5.99.tar.gz /opt
